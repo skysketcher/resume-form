@@ -1,4 +1,4 @@
-//Functions
+//Functions text function
 function paraText(txt) {  //for creating a text
 	
 	var para = document.createElement("p");
@@ -33,21 +33,6 @@ div.setAttribute('id','header');
 docNavigate.appendChild(div);
 docNavigate = docNavigate.lastChild;  //body-div
 
-var h1 = document.createElement("h1");
-var myName = document.createTextNode("Aakash Chitrakar");
-docNavigate.appendChild(h1);
-docNavigate = docNavigate.lastChild; //body-div-h1
-docNavigate.appendChild(myName);
-
-docNavigate = docNavigate.parentNode; //body-div
-
-var h2 = document.createElement('h2');
-var course = document.createTextNode('WEB 115 - Section 0002');
-docNavigate.appendChild(h2);
-docNavigate = docNavigate.lastChild; //body-div-h2
-docNavigate.appendChild(course);
-
-docNavigate = docNavigate.parentNode;//body-div
 docNavigate = docNavigate.parentNode;//body
 
 var heading = document.createElement("h1");
